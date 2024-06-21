@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: lightgray; */
+}
+
+.input {
+    /* border: 1px solid gray; */
+    width: fit-content;
+    padding-bottom: 15px;
+    margin: 0%;
+}
+
+.talkative{
+    /* border: 1px solid black; */
+    width: 40%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.talkative p{
+
+}
+
+.spinning{
+    /* border: 1px solid black; */
+    border-radius: 4px;
+    width: 40%;
+    padding-bottom: 30px;
+    /* justify-content: center; */
+}
+
+.spinning h3{
+    padding-top: 10px;
+}

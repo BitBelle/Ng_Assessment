@@ -1,0 +1,7 @@
+<div class="bigInput">
+    <input [(ngModel)]="userInput" placeholder="Enter some text" />
+    <p [ngClass]="{'error': userInput.length < 5}" [ngStyle]="{'color': userInput.length < 5 ? 'red' : 'black'}">
+      {{ userInput | placeholder:'Input must be at least 5 characters' }}
+    </p>
+</div>
+  
